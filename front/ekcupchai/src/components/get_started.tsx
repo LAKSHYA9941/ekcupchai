@@ -96,16 +96,18 @@ const GetStarted = () => {
   };
 
   return (
-    <motion.div className="bg-white/10 p-10 rounded-lg shadow-xl backdrop-blur-md"
+    <motion.div className="w-full h-screen bg-[url('/guysiptea2.jpeg')] bg-center bg-no-repeat bg-[length:100%_100%]
+ p-10 rounded-lg shadow-xl backdrop-blur-md"
+
       initial={{ opacity: 0, y: -50 }} 
       animate={{ opacity: 1, y: 0 }} 
       transition={{ duration: 0.5 }}
     >
       <h2 className="text-3xl font-bold text-white">Sign Up to Join the Chai Lovers! ☕</h2>
       <form onSubmit={handleSubmit} className="mt-4">
-        <input type="text" name="fullName" placeholder="Full Name" onChange={handleChange} className="block w-full p-2 mb-4 rounded-md" required />
-        <input type="email" name="email" placeholder="Email" onChange={handleChange} className="block w-full p-2 mb-4 rounded-md" required />
-        <motion.button type="submit" className="bg-[#EB5B00] text-white py-2 px-4 rounded-md"
+        <input type="text" name="fullName" placeholder="Full Name" onChange={handleChange} className="block w-40% p-2 mb-4 rounded-md" required />
+        <input type="email" name="email" placeholder="Email" onChange={handleChange} className="block w-40% p-2 mb-4 rounded-md" required />
+        <motion.button type="submit" className="bg-orange-800 text-white py-2 px-4 rounded-md"
           whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
         >
           Sign Up
@@ -116,3 +118,4 @@ const GetStarted = () => {
 };
 
 export default GetStarted;
+//w-full h-screen bg-orange-200 p-10 rounded-lg shadow-xl backdrop-blur-md

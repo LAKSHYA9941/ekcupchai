@@ -4,7 +4,7 @@
 
 @theme {
     --color-primary: #7d583f;
-    --color-secondary: #ffffff;
+    --color-secondary: #FCE9D4;
     --color-accent: #c38e6c;
     --color-accent-light: #fff9ea;
 }
@@ -17,7 +17,7 @@
 
 :root {
     --primary: #7d583f;
-    --secondary: #ffffff;
+    --secondary: #FCE9D4;
     --accent: #c38e6c;
     --accent-light: #c38e6c;
 
